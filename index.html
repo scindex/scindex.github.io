@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <title>Software Component Index (Scindex)</title>
+    <title>Soft Component Index (SCIndex)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="./scindex_logo.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/f39d/proto/css/proto_layout.min.css" />
+    <style>
+        :root{
+          --pico-border-radius: 0rem;
+        }
+        a {
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: none;
+        }
+        .dim { opacity:.6 }
+    </style>
+    <script>
+console.log(`
+                c==o
+              _/____\_
+       _.,--'" ||^ || "'z._
+      /_/^ ___\||  || _/o\ "'-._
+    _/  ]. L_| || .||  \_/_  . _'--._
+   '/_~7  _ . " ||. || /] \ ]. (_)  . "'--.
+  '|__7~.(_)_ []|+--+|/____T_____________L|
+   |__|  _^(_) /^   __\____ _   _|
+   |__| (_){_) J ]K{__ L___ _   _]
+   |__| . _(_) \v     /__________|________
+   l__l_ (_). []|+-+-<\^   L  . _   - ---L|
+    \__\    __. ||^l  \Y] /_]  (_) .  _,--'
+     \~_]  L_| || .\ .\\/~.    _,--'"'
+      \_\ . __/||  |\  \'-+-<'"
+        "'---._|J__L|X o~~|[\\
+               \____/ \___|[//
+                '--'   '--+-'`);
+    </script>
 </head>
-<body>
-    <h1>Welcome to the Scindex Project</h1>
-    <p>A universal indexing system for software components.</p>
+<body class="grid" 
+     style="--grid-cols: 1fr;
+            --grid-rows: 1fr 60px;
+            --grid-areas: 
+              'center'
+              'bottom';
+            --grid-gap: 8px;
+            height:100dvh;
+            width: 100vw;
+            opacity: 0">
+
+    <div class="center df df-col jc-c ai-c">
+        <div class="container" style="max-width:400px;">
+            <div class="df jc-fs ai-fs gap-sm">
+                <svg width="38" height="38" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect id="bg" width="512" height="512" fill="transparent"/>
+                    <rect x="173.861" y="108.435" width="109.518" height="295.13" fill="#FAFAFA"/>
+                    <rect x="294.047" y="108.435" width="109.518" height="295.13" fill="#FAFAFA"/>
+                    <rect x="108.435" y="108.435" width="54.7591" height="295.13" fill="#FAFAFA"/>
+                </svg>
+                <div>
+                    <h1 class="mb-0">Scindex</h1>
+                    <small class="dim">pronounced IPA: /ˈsɪndeks/ or SIN-deks</small>
+                </div>
+            </div>
+            <p class="mt-lg">A vendor-neutral, open-standard specification for categorizing and numbering all components of a software system</p>
+            <p class="">Find all our <a href="https://github.com/scindex/scindex/blob/main/README.md" class="pico-color-yellow-400">documentation</a>, <a href="https://github.com/scindex/scindex/releases" class="pico-color-yellow-300">release files</a>, and the <a href="https://github.com/scindex/scindex/blob/main/scindex.md" class="pico-color-yellow-200">scindex</a> itself in the <a href="https://github.com/scindex/scindex" class="pico-color-yellow-100">scindex repo</a></p>
+            <hr>
+            <small class="">Scindex is joyously ❤️ and meticulously 🧐 maintained by <a href="https://www.f39.design/" target="_blank" style="color:#f39">F39</a></small>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container" style="max-width:400px;">
+            <small class="dim">No cookie consent banner. No tracking. You're welcome.</small>
+        </div>
+    </div>
+
+<style>
+body {
+    opacity: 1 !important;
+    transition: all 1000ms ease-in;
+}
+</style>
 </body>
 </html>
+
